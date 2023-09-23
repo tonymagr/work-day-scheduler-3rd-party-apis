@@ -6,9 +6,9 @@ Tony Magrady - Berkeley Full-Stack Web Development Bootcamp student <br>
 
 ## Description
 Daily planner calendar webpage (for current day) that allows a user to save events for each hour of a typical working day (9am–5pm). It has color-coded hour intervals to highlight current time of day, before, and after.<br>
-The time slots are text fields for the activities of the day, which can be saved to local storage via save button:  {{{{{{{{{{Place work day scheduler web page link here}}}}}}}}}}
+The time slots are text fields for the activities of the day, which can be saved to local storage via save button and retrieved upon page load or refresh:  https://tonymagr.github.io/work-day-scheduler-3rd-party-apis/
 
-Module 5 skills and tools I used in webpage deployment were:
+Module 5 skills and tools that I used in webpage deployment were:
 - HTML Access to CSS frameworks, jQuery library, and Day.js library
 - Day.js formatting
 - Dynamic styling updates with jQuery
