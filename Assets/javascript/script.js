@@ -4,14 +4,6 @@ let timeBlock, eventText, timeBlockHour, savedEvent;
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
-
-// TODO: Add a listener for click events on the save button. This code should
-// use the id in the containing time-block as a key to save the user input in
-// local storage. HINT: What does `this` reference in the click listener
-// function? How can DOM traversal be used to get the "hour-x" id of the
-// time-block containing the button that was clicked? How might the id be
-// useful when saving the description in local storage?
-//
   
 // Function def: Set appropriate past, present, and future background colors to time of day rows.
 function setRowColor (rowTime) {
@@ -58,6 +50,10 @@ function formatPage() {
     }
   });
 
+  // TODO: Add a listener for click events on the save button. This code should
+  // use the id in the containing time-block as a key to save the user input in
+  // local storage.
+  
   // Event listener for save buttons
   // --------------
   // Amninder Singh of Aug-23 FS Bootcamp provided assistance with forEach usage & sample code
